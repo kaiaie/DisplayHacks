@@ -1,4 +1,6 @@
-﻿Public NotInheritable Class TunnelGenerator
+﻿' Draws a rotating 3D tunnel
+' Algorithm based on http://www.student.kuleuven.be/~m0216922/CG/tunnel.html
+Public NotInheritable Class TunnelGenerator
     Private _drawingSurface As Control
     Private _tunnelTexture As Bitmap
     Private _frameCount As Integer = -1
